@@ -1,4 +1,4 @@
-# Welcome NightOwl 🦉 ![image](https://github.com/SumanthReddi/nightowl/assets/34806080/f2274e53-90c6-4eec-ae54-85df8b077e7e)
+# Welcome NightOwl 🦉 
 
 
 Java is a programming language and a platform.
