@@ -667,7 +667,7 @@ import ToLower from '../../../../modules/ExpOne/ToLower'
   
 # Most used String Methods in Automation testing
 
-:::tip String Equals()
+ :memo: **String Equals()**
 
 Compares the string with the specified string and returns true if both matches else false.
    ```java
@@ -679,10 +679,7 @@ Compares the string with the specified string and returns true if both matches e
 ```
 <Equals></Equals>
 
-:::
-
-
-:::tip String equalsIgnoreCase()
+ :memo: **String equalsIgnoreCase()**
 
 It works same as equals method but it doesn’t consider the case while comparing strings.
    ```java
@@ -693,9 +690,7 @@ It works same as equals method but it doesn’t consider the case while comparin
 ```
 <EqualsIgnoreCase></EqualsIgnoreCase>
 
-:::
-
-:::tip String contains()
+ :memo: **String contains()**
 
 It checks whether the string contains the specified sequence of char values. If yes then it returns true else false.
    ```java
@@ -706,9 +701,7 @@ It checks whether the string contains the specified sequence of char values. If 
 ```
 <Contains></Contains>
 
-:::
-
-:::tip String length()
+ :memo: **String length()**
 
 It returns the length of a String.
    ```java
@@ -717,9 +710,7 @@ It returns the length of a String.
 ```
 <Length></Length>
 
-:::
-
-:::tip String replace()
+ :memo: **String replace()**
 
 It returns the new updated string after changing all the occurrences of oldChar with the newChar.
 
@@ -729,9 +720,7 @@ It returns the new updated string after changing all the occurrences of oldChar 
 ```
 <Replace></Replace>
 
-:::
-
-:::tip String toUpperCase()
+ :memo: **String toUpperCase()**
 
 Converts to Upper Case
    ```java
@@ -740,9 +729,7 @@ Converts to Upper Case
 ```
 <ToUpper></ToUpper>
 
-:::
-
-:::tip String toLowerCase()
+ :memo: **String toLowerCase()**
 
 Converts to Lower Case
 
@@ -752,10 +739,7 @@ Converts to Lower Case
 ```
 <ToLower></ToLower>
 
-:::
-
-
-:::tip String valueOf()
+ :memo: **String valueOf()**
 
 It returns a string that contains the characters of the specified character array.
    ```java
@@ -764,9 +748,7 @@ It returns a string that contains the characters of the specified character arra
    System.out.println(s1+17);       //returns 2017
 ```
 
-:::
-
-:::tip String trim()
+ :memo: **String trim()**
 
 Returns the substring after omitting leading and trailing white spaces from the original string.
 
@@ -777,10 +759,8 @@ Returns the substring after omitting leading and trailing white spaces from the 
    s1.length();       //returns 5
 ```
 
-:::
-
-
-:::tip String Concat()
+ :memo: **String Concat()**
+ 
 Concatenates the specified string “str” at the end of the string.
 ```java
 String s1="hello";
@@ -789,25 +769,22 @@ s1=s1.concat(s2); //returns "hello how are you"
 ```
 <ExpOne></ExpOne>
 
-:::
-   
-:::tip String toCharArray()
+ :memo: **String toCharArray()**
+ 
 Converts the string to a character array.
 ```java
   String s1="Welcome";
    char[] ch=s1.toCharArray(); //returns {}'W','e','l','c','o','m','e'}
 ```
-:::
-
-:::tip String split()
+ :memo: **String split()**
+ 
 It splits the string and returns the array of substrings that matches the given regular expression
 ```java
   String s1="Wel-come";
    String[] ch=s1.split("-"); //returns {}"Wel", "come"}
 ```
-:::
-
-:::tip String endsWith()
+ :memo: **String endsWith()**
+ 
 It checks whether the substring is having the specified postfix or not.
 
 ```java
@@ -815,9 +792,7 @@ It checks whether the substring is having the specified postfix or not.
   s1.endsWith("me"); //returns true
   s1.endsWith("mo"); //returns false
 ```
-:::
-
-:::tip String startsWith()
+ :memo: **String startsWith()**
 
 It checks whether the substring is having the specified prefix or not.
 
@@ -826,7 +801,6 @@ It checks whether the substring is having the specified prefix or not.
   s1.startsWith("Wel"); //returns true
   s1.startsWith("el"); //returns false
 ```
-:::
 
 
 # Class
