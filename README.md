@@ -9,9 +9,6 @@ import javaimg from '../img/java.png'
 
 ### java 
 > Java is a high-level, general-purpose programming language that was developed by Sun Microsystems (now owned by **Oracle**) in the mid-**1990s**. It is known for its simplicity, platform independence, and robustness.
-<p align="center">
-  <img src={javaimg} alt="Image" width="450" height="auto"/>
-</p>
 
 ### Learning Java as your first programming language can be a good choice for several reasons:
 
@@ -56,14 +53,6 @@ import withvar from '../img/withvar.png'
 ### What is a variable in java?
 - Variables are named **containers** used to **store data** in Java programs. 
 - They act as placeholders that can hold different types of values, such as <code> numbers</code>, <code>characters</code>, or <code>boolean</code> values. 
-  <p align="center">
-  <img src={withoutvar} alt="Image" width="450" height="auto"/>
-</p>
-
-<p align="center">
-  <img src={withvar} alt="Image" width="450" height="auto"/>
-</p>
-
 - In Java, variables are declared with a specific type and can be assigned values, updated, and used throughout the program.
 
 ### Declaration and Initialization
@@ -159,9 +148,6 @@ boolean isDelivered = true;       // (Store true or false)
 
 > Docs are dynamic, they can store text, images, videos and pages will be dynamically appended hence the size
 will vary based on the content
-<p align="center">
-  <img src={docs} alt="Image" width="550" height="auto"/>
-</p>
 
 
 Examples of Non-Primitive Data Types
@@ -173,72 +159,6 @@ Ex:
 ```java
 String myText = "Hello";     // String
 ```
-
-
-# Task
-
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
-### Personal details
-
-```mdx-code-block
-<Tabs groupId="author-front-matter">
-<TabItem value="task1" label="Task">
-```
-
-```md title="Transform below paragraph into java data using correct data type"
-Hi all, I am Venkat, 32 years old,married and I have a son, his name is Ishaan
-and he is 4 years old. I live in Bangalore,pincode is 516520, current temparature
-is 34.5 degrees you can contant me at 6309596569.My initial is G and 
-aadhaar number is 276947836478123.My current stock value is 56.21421432312
-```
-
-
-```mdx-code-block
-</TabItem>
-<TabItem value="hint1" label="Hint">
-```
-
-:::tip
-
-categorize the data and assign the correct data type
-:::
-
-
-```mdx-code-block
-</TabItem>
-<TabItem value="sol1" label="Solution">
-```
-
-
-```md title="Solution"
----
-
-String name="venkat"
-boolean isMale=true;
-char initial='G';
-byte age=32;
-boolean isMarried=true;
-String location="Bangalore";
-int pincode=516520;
-long mobileNumber=6309596569l;
-long aadhaar=276947836478123l;
-boolean hasChildren=true;
-byte noOfChildren=1;
-String childName="Ishaan";
-byte childAge=4;
-float cityTemp=34.5f;
-double stockValue=56.21421432312d;
-
----
-```
-
-```mdx-code-block
-</TabItem>
-</Tabs>
-```
-Sure! Here's a simple explanation of Java operators in markup language:
 
 Java Operators
 --------------
